@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Troca Escolar – Carrinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="user-menu">
+          <button class="icon-btn" id="user-btn" aria-label="Menu do usuário" aria-expanded="false">👤</button>
+          <ul class="dropdown" id="user-dropdown" hidden>
+            <li><a href="usuario.html">👤 Meu perfil</a></li>
+            <li><a href="carrinho.html">🛒 Carrinho</a></li>
+            <li><a href="anunciar.html">📦 Anunciar material</a></li>
+          </ul>
+        </div>
+        <a class="logo" href="index.html">📚 Troca Escolar</a>
+      </div>
+      <form class="search" id="search-form" role="search">
+        <input type="search" id="search-input" placeholder="Pesquisar produto..." aria-label="Pesquisar produto">
+        <button type="submit" aria-label="Buscar">🔍</button>
+      </form>
+      <a class="cart-link" href="carrinho.html">🛒 <span id="cart-count">0</span></a>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">Meu carrinho</h1>
+
+    <section class="card">
+      <div id="cart-vazio" class="vazio" hidden>
+        <p>🛒 Seu carrinho está vazio.</p>
+        <p><a href="index.html">Escolher produtos na home</a></p>
+      </div>
+
+      <div id="cart-wrap">
+        <div class="tabela-wrap">
+          <table class="carrinho">
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço unitário</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+          </table>
+        </div>
+
+        <div class="resumo">
+          <div>
+            <span id="cart-qtd">0 itens</span><br>
+            <span class="total">Total: <span id="cart-total">R$ 0,00</span></span>
+          </div>
+          <div class="acoes" style="margin-top:0">
+            <a class="btn secundario" href="index.html">Continuar escolhendo</a>
+            <button class="btn secundario" id="cart-limpar" type="button">Limpar carrinho</button>
+            <button class="btn" id="cart-finalizar" type="button">Finalizar pedido</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="usuario.html">Meu perfil</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="anunciar.html">Anunciar material</a>
+    </nav>
+    <p>© Troca Escolar – educação ao alcance de todos 💙</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
