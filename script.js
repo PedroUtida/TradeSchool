@@ -71,7 +71,7 @@ function atualizarContador() {
   if (el) el.textContent = total;
 }
 
-
+var timer;
 function toast(msg) {
   var t = document.getElementById('toast');
   if (!t) {
@@ -139,7 +139,7 @@ function mostrarCarrinho() {
 function esvaziar() {
   salvarCarrinho({});
   mostrarCarrinho();
-  toast('Carrinho esvaziado');
+  toast('🗑 Carrinho esvaziado');
 }
 
 function comprar() {
@@ -183,6 +183,7 @@ function iniciarCabecalho() {
 }
 
 //Carrossel
+
 function rolar(botao, valor) {
   botao.parentNode.querySelector('.carousel-track').scrollBy({ left: valor, behavior: 'smooth' });
 }
@@ -305,7 +306,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var busca = new URLSearchParams(window.location.search).get('q') || '';
   document.getElementById('search-input').value = busca;
   mostrarProdutos(busca);
-  setInterval(rolarSozinho, 3000);
   iniciarCarrinho();
   iniciarUsuario();
   iniciarAnuncios();
