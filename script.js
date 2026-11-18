@@ -71,7 +71,7 @@ function atualizarContador() {
   if (el) el.textContent = total;
 }
 
-var timer;
+
 function toast(msg) {
   var t = document.getElementById('toast');
   if (!t) {
@@ -139,7 +139,7 @@ function mostrarCarrinho() {
 function esvaziar() {
   salvarCarrinho({});
   mostrarCarrinho();
-  toast('🗑 Carrinho esvaziado');
+  toast('Carrinho esvaziado');
 }
 
 function comprar() {
@@ -183,8 +183,6 @@ function iniciarCabecalho() {
 }
 
 //Carrossel
-var parado = false;
-
 function rolar(botao, valor) {
   botao.parentNode.querySelector('.carousel-track').scrollBy({ left: valor, behavior: 'smooth' });
 }
