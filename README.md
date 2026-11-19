@@ -34,6 +34,8 @@ etc.
 
 Tanto no corpo da pagina de anuncio quanto na da pagina de perfil são formulários, porém ambos são diferentes um do outro. Na pagina de anuncio o usuario estaria ou doando, caso não coloque nenhum valor, ou vendendo.
 
+---
+
 ### JS
 
 Foi utilizado o JS para adicionar interatividade, dinamismo e lógica a página web.
@@ -53,6 +55,8 @@ O JS utilizado para o index para listar os produtos e adicionar o carrossel.
 ![JS para Carrinho](./imgP/cart4.png)
 
 O JS usado no carrinho foi para linkar ele com a pagina index, para poder adicionar os produtos de uma pagina para outra, para poder adicionar, retirar, excluir e comprar produtos da pagina do carrinho.
+
+---
 
 ### CSS
 
