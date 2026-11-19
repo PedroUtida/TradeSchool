@@ -6,6 +6,9 @@
 Pessoas que procuram tentar ENEM ou até mesmo por que querem conhecer alguma obra literária, tem a opção de vender ou doar ao site para que alguma instituição ou escola que precise adquire este material para se estudar
 em escolas publicas etc.
 
+## Youtube
+Assista ao video do projeto clicando [aqui](https://youtu.be/96_OP91fsMo)
+
 ## Tecnologias Utilizadas
 
 Durante o processo de criação do projeto foi pensando em algumas tecnologias para se utilizar, as tecnologias que foram confortáveis para se utilizar na criação de paginas foi o **HTML**, **JS** e **CSS**
