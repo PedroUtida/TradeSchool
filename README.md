@@ -58,4 +58,4 @@ O JS usado no carrinho foi para linkar ele com a pagina index, para poder adicio
 
 O **CSS** foi utilizado para fazer estilização no site , como alterações no cabeçalho, uso de cores e formatações para o site não ficar bambeado para nenhum lado.
 
-![CSS](./imgP/CSS.png)
+![Css da Header](./imgP/CSS.png)
